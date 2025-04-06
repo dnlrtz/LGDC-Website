@@ -15,6 +15,10 @@ Table of Contents
 
 /*=========================== General and Typography ============================ */
 
+.white-text {
+  color: #ffffff !important;
+}
+
 body {
   color: #444444;
   font-family: "Inter", sans-serif;
@@ -652,25 +656,7 @@ a:focus {
   border-color: #fff;
 }
 /* video popup */
-.video-popup {
-  height: 240px !important;
-  position: relative;
-}
-.video-popup.video1 {
-  background-size: cover;
-  background-image: url("../img/cam1.jpg");
-}
-.video-popup.video2 {
-  background-size: cover;
-  background-image: url("../img/cam2.jpg");
-}
-.video-popup.video3 {
-  background-size: cover;
-  background-image: url("../img/cam3.jpg");
-}
-.video-popup a {
-  width: 100%;
-}
+
 .play-btn {
   width: 80px;
   height: 80px;
@@ -1058,7 +1044,7 @@ a:focus {
   background-size: cover;
 }
 .call-to-action2 {
-  background: url("../img/dogbg2.png");
+  background: url("../img/gallery/doghug.jpg");
   background-repeat: no-repeat;
   background-position: center left;
   background-size: contain;
@@ -1075,19 +1061,22 @@ a:focus {
   background-position: center;
   background-size: cover;
 }
+
+/*
 #contact-home {
-  background: url("../img/contactbg.png");
+  background: url("../img/about/blackdogfront.jpg");
   background-repeat: no-repeat;
   background-size: 70%;
   background-position: bottom center;
 }
+  */
 .bg-tab-1 {
-  background: url("../img/about/tab1.png");
+  background: url("../img/browndogup.jpg");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 .bg-tab-3 {
-  background: url("../img/about/tab3.png");
+  background: url("../img/browndogup.jpg");
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -1095,7 +1084,7 @@ a:focus {
 /* Page header */
 
 .page-header {
-  background: url("../img/browndogup.jpg");
+  background: url("../img/slideshow/browndogup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
